@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "reviewDate": "2026-11-01",
+  "scope": "Initial public showcase materials",
+  "allowlist": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "assets/architecture.svg",
+    "assets/architecture.png",
+    "assets/mission-control.png",
+    "assets/demo.gif",
+    "docs/architecture.md",
+    "docs/four-objectives.md",
+    "docs/engineering-results.md",
+    "docs/hackathon-impact.md",
+    "docs/limitations.md",
+    "docs/mission-control-demo.md",
+    "docs/publication-audit.md",
+    "examples/synthetic-execution.json",
+    "evidence/engineering-summary.json",
+    "evidence/publication-manifest.json"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 10,
+      "sha256": "cf237c7aff44efbe6e502e645c3e06da03a69d7bdeb43392108ef3348143417e"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 900,
+      "sha256": "7af29a6e092a40dfc59e69e43faeeacf4d9c4efd2caf962c83ef0b8784a5cb4a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9866,
+      "sha256": "990d46fa59e669ab0fd6db508045840bc5e18c626dc274022b6dfa7551533e81"
+    },
+    {
+      "path": "assets/architecture.svg",
+      "bytes": 7688,
+      "sha256": "789a3b12a8fd84e6a3b55378cececd0b0b8c58e0f629585bc4dfc2a7e78750df"
+    },
+    {
+      "path": "assets/architecture.png",
+      "bytes": 188030,
+      "sha256": "49f34209f9a8b99d3f7cbaf0822fd537d5ce00a3a68dd580f7337f29f272b21b"
+    },
+    {
+      "path": "assets/mission-control.png",
+      "bytes": 125638,
+      "sha256": "4135e3384d849a200dd20ace8f9dfda4f41127fb36e9c32eb4f7c3104b384712"
+    },
+    {
+      "path": "assets/demo.gif",
+      "bytes": 129309,
+      "sha256": "c270654088710784bcb50c89578476aea182f39ba65fe75869089b6923873efe"
+    },
+    {
+      "path": "docs/architecture.md",
+      "bytes": 3372,
+      "sha256": "f4fa66a77cdd19f4480dff411150bfa4376432ce80f6088a4cff89288dde0b89"
+    },
+    {
+      "path": "docs/four-objectives.md",
+      "bytes": 3194,
+      "sha256": "5b3a9c92ebee320c0eb53c54ef5f2f8b80886ddf869bdcb39231a9182276daf2"
+    },
+    {
+      "path": "docs/engineering-results.md",
+      "bytes": 7068,
+      "sha256": "20c1862aade20f4e54e1a8dcf005452a4f1ce7b63c2516fc466906a3319ba664"
+    },
+    {
+      "path": "docs/hackathon-impact.md",
+      "bytes": 3169,
+      "sha256": "d5f7ad5615270660d6b56d804f278a840fa11a8b1de391722b43c5e438fb31af"
+    },
+    {
+      "path": "docs/limitations.md",
+      "bytes": 3497,
+      "sha256": "7305cc963cc87096c011fc383098215830adf7784c3b0629e3a65296d6c4437b"
+    },
+    {
+      "path": "docs/mission-control-demo.md",
+      "bytes": 2402,
+      "sha256": "c9525487c4afc13fd482328e22e38f16b8ff93e2d872d37247ba01d05714c4fa"
+    },
+    {
+      "path": "docs/publication-audit.md",
+      "bytes": 4662,
+      "sha256": "22784868380d6336e7b581851be723bb211f4b77dd8dd7ef3e004d08895b2c31"
+    },
+    {
+      "path": "examples/synthetic-execution.json",
+      "bytes": 1242,
+      "sha256": "ab7b37170fdd2c117482156f94faef0b82f6012b0ddcad0071860c736e661e33"
+    },
+    {
+      "path": "evidence/engineering-summary.json",
+      "bytes": 5323,
+      "sha256": "7a17abd97dff90f4b1ba60b3a64c4765d0dba97dabed478dcbde3afc33adca68"
+    }
+  ],
+  "selfHash": "Manifest excluded from files to avoid recursion; bound by Git history",
+  "review": {
+    "secretAndPrivatePathPatterns": "passed",
+    "exactAllowlist": "passed",
+    "relativeLinksChecked": 29,
+    "evidenceArithmeticAndBindings": "passed",
+    "diagramExternalContent": "none",
+    "syntheticBrowserRequests": "local GET only",
+    "visualReview": "Architecture, actual synthetic UI screenshot, and both animation frames reviewed by publication agent",
+    "privateSourceOrHistoryTransferred": false,
+    "backendCodeIncluded": false,
+    "workflowsIncluded": false
+  },
+  "provenance": {
+    "documentation": "Newly authored",
+    "architecture": "Newly authored conceptual SVG and raster rendering",
+    "missionControlVisuals": "Actual proprietary interface captured from isolated synthetic fixtures; publication label added; no bundle included",
+    "engineeringSummary": "Explicitly selected aggregate fields from retained private evidence; freshly serialized",
+    "executionExample": "Newly authored fictional illustration"
+  },
+  "rights": "All rights reserved; see LICENSE"
+}

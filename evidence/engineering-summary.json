@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "publicationReviewDate": "2026-11-01",
+  "evidenceType": "Newly authored, sanitized summary of retained private evidence",
+  "publicReproducibility": "Aggregate values and arithmetic are public. Private source and raw receipts are withheld; these are maintainer attestations, not publicly rerunnable backend verification.",
+  "verification": {
+    "id": "EV-01",
+    "sourceCommit": "96545043d0e55127c6e0efcfd03ccfbd55b44110",
+    "sourceCleanAtVerification": true,
+    "startedAt": "2026-11-01T20:07:40.228Z",
+    "endedAt": "2026-11-01T20:11:33.579Z",
+    "checks": [
+      {
+        "name": "lint",
+        "status": "passed"
+      },
+      {
+        "name": "typecheck",
+        "status": "passed"
+      },
+      {
+        "name": "test",
+        "status": "passed"
+      },
+      {
+        "name": "build",
+        "status": "passed"
+      }
+    ],
+    "tests": {
+      "tests": 2533,
+      "failed": 0,
+      "passed": 2527,
+      "cancelled": 0,
+      "skipped": 6,
+      "todo": 0
+    },
+    "focusedTests": {
+      "tests": 209,
+      "passed": 208,
+      "failed": 0,
+      "skipped": 1
+    },
+    "focusedScope": "Eight relevant test files; overlaps the full suite; one readiness test skipped in isolated home",
+    "newModelRequests": 0,
+    "operationalAcceptance": false,
+    "rawReceiptSha256": "46042eb2836acfa12f2a2a1da78204a87ba15229e36db5416103584246fafe79"
+  },
+  "historicalVerification": {
+    "id": "EV-02",
+    "sourceCommit": "5c35a244ece4a07fd87253c46186b788887fff1b",
+    "recordedAt": "2026-10-31T01:44:38.996357+00:00",
+    "tests": {
+      "tests": 2450,
+      "passed": 2444,
+      "failed": 0,
+      "skipped": 6,
+      "cancelled": 0,
+      "todo": 0
+    },
+    "focusedTests": {
+      "passed": 53,
+      "failed": 0
+    },
+    "preservationFileComparisons": 1291,
+    "classification": "Historical engineering verification; not an operational result",
+    "rawSummarySha256": "db50e382a4819ae59965aa3c790ff2d57a3e1e2e532d4eb5cc73b96e1b18674b"
+  },
+  "historicalBenchmark": {
+    "id": "EV-03",
+    "observedAt": "2026-10-18T23:02:01.299Z",
+    "fleetSourceCommit": "9bf8f163873f953a0e1918d7656922f8b311577c",
+    "retainedInSourceCommit": "96545043d0e55127c6e0efcfd03ccfbd55b44110",
+    "mode": "Authenticated bounded native coding, independent deterministic checks, draft delivery",
+    "rows": [
+      {
+        "case": 1,
+        "path": "direct",
+        "durationMs": 24872.156458,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 1,
+        "humanPromptRelays": 0
+      },
+      {
+        "case": 1,
+        "path": "fleet",
+        "durationMs": 24615.86525,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 1,
+        "humanPromptRelays": 0
+      },
+      {
+        "case": 2,
+        "path": "direct",
+        "durationMs": 23609.159417,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 1,
+        "humanPromptRelays": 0
+      },
+      {
+        "case": 2,
+        "path": "fleet",
+        "durationMs": 26941.79225,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 1,
+        "humanPromptRelays": 0
+      },
+      {
+        "case": 3,
+        "path": "direct",
+        "durationMs": 28495.455042,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 1,
+        "humanPromptRelays": 0
+      },
+      {
+        "case": 3,
+        "path": "fleet",
+        "durationMs": 41507.790417,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 1,
+        "humanPromptRelays": 0
+      },
+      {
+        "case": 4,
+        "path": "direct",
+        "durationMs": 8224.844,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 1,
+        "humanPromptRelays": 0
+      },
+      {
+        "case": 4,
+        "path": "fleet",
+        "durationMs": 11924.666833000001,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 1,
+        "humanPromptRelays": 0
+      },
+      {
+        "case": 5,
+        "path": "direct",
+        "durationMs": 22952.952333,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 2,
+        "humanPromptRelays": 0
+      },
+      {
+        "case": 5,
+        "path": "fleet",
+        "durationMs": 32519.266624999997,
+        "outcome": "verified-draft-delivered",
+        "providerAttempts": 2,
+        "humanPromptRelays": 0
+      }
+    ],
+    "aggregate": {
+      "direct": {
+        "acceptedDrafts": 5,
+        "sumTaskDurationSeconds": 108.154567,
+        "providerAttempts": 6,
+        "humanPromptRelays": 0
+      },
+      "fleet": {
+        "acceptedDrafts": 5,
+        "sumTaskDurationSeconds": 137.509381,
+        "providerAttempts": 6,
+        "humanPromptRelays": 0
+      }
+    },
+    "limitations": [
+      "Five paired tasks; not randomized and not representative of general productivity",
+      "Sum of task cycle times is not concurrent batch wall time",
+      "Direct uses a thin deterministic application, verification and delivery harness",
+      "One interrupted attempt on each path has unknown usage",
+      "Does not establish current multi-provider readiness, a throughput advantage or lower cost"
+    ],
+    "rawBenchmarkSha256": "6e224b35939edc5d36932d1760db263177c82eb913b90233b97af08fab39c111"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "exampleSchema": "showcase-illustration-v1",
+  "classification": "SYNTHETIC — documentation example only",
+  "operationalEvidence": false,
+  "backendApiContract": false,
+  "description": "A fictional mission illustrating submission, independent checks, and acceptance. No worker executed this record.",
+  "mission": {
+    "id": "illustration-mission-01",
+    "corps": "Delta (conceptual assignment)",
+    "objective": "Correct a fictional library's handling of empty input",
+    "workerRole": "coding worker",
+    "constraints": ["One bounded change", "Predetermined acceptance checks", "Human review before delivery"]
+  },
+  "stages": [
+    {"stage": "assignment", "illustrativeState": "objective and acceptance criteria recorded"},
+    {"stage": "submission", "illustrativeState": "worker supplies candidate and completion claim"},
+    {"stage": "verification", "illustrativeState": "independent deterministic checks pass"},
+    {"stage": "review", "illustrativeState": "candidate accepted within the fictional scenario"}
+  ],
+  "usage": {"actualTokens": null, "actualCost": null, "reason": "No inference or billing occurred"},
+  "provenance": {"origin": "Newly authored public illustration", "containsPrivateExecutionData": false}
+}
